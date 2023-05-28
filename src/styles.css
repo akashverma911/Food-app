@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 1240px;
+  min-height: 400px;
+  margin: auto;
+  padding: 12px;
+  box-shadow: shadow-xl;
+  /* max-w-[1240px] shadow-xl min-h-[400px] mx-auto p-3 */
+}
+
+.box {
+  width: 100%;
+  display: grid;
+
+  /* w-full grid md:grid-cols-4 gap-5 */
+}
+
+.search-box {
+  width: 100%;
+  border: black;
+  border-radius: 10px;
+  border-width: 20px;
+  color: gray;
+  padding: 16px;
+  /* w-full border border-black rounded text-slate-700 p-4 */
+}
