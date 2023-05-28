@@ -71,7 +71,7 @@ export default function Dish() {
             Instructions
           </Typography>
           <Typography variant="subtitle1" gutterBottom>
-            {ins}
+            <div dangerouslySetInnerHTML={{ __html: ins }}></div>
           </Typography>
         </Grid>
         <Grid item md={4} xs={12}>
